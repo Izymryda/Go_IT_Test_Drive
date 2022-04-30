@@ -75,3 +75,162 @@ header{
 .banderogus-image{
     align-self: flex-end;    
 }
+.gus-facts{
+    padding: 52px 0 46px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1B1D1F;
+}
+.gus-title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100px;
+    margin: 16px 0;
+    
+}
+.gus-descr{
+    width: 875px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;   
+    text-align: center;  
+}
+.gus-facts-container
+{
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    color: #1B1D1F;
+    margin-top: 24px;
+}
+.gus-facts-item{
+    width: 35%;
+}
+.gus-fact-title{
+    margin-left: 47px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 32px;
+}
+.gus-fact-descr{
+    margin-left: 47px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 280px;
+}
+.victory-bgd{
+    width: 1170px;
+    background: linear-gradient(270deg, #C1E9FF 0%, #FFFFFF 100%);
+    color: #1B1D1F;
+    text-align: center;
+    padding: 52px 0 72px 0;
+    margin-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.victory-footer{
+    display: flex;
+    justify-content: center;
+}
+.modal-bgd{
+    color: #1B1D1F;
+    width: 100%;
+    height: 100%;
+    background: rgb(27 29 31 / 70%);    
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0;
+    pointer-events: none;
+
+    transition: all 0.3s ease-in-out;
+}
+.modal-form{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.modal-form-container{
+    background: #FFFFFF;
+    padding: 32px 92px 60px 92px;
+    position: relative;
+}
+.modal-form-title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 32px;
+    margin-bottom: 12px;
+}
+
+.modal-form-descr{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.modal-field-name{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+.modal-form-field{
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.modal-field-input{
+    background: #FFFFFF;
+    border: 1px solid #005BBB;
+    box-sizing: border-box;
+    border-radius: 8px;    
+    height: 48px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    padding: 7px;
+}
+.modal-form-btn{
+    background: #FF6B0A;
+    border-radius: 8px;
+    margin-top: 24px;    
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;    
+    padding: 12px 24px;
+    cursor: pointer;
+}
+.close-btn{
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    font-size: 20px;
+    line-height: 14px;
+    padding: 5px;
+    color: #1B1D1F;
+    font-weight: 600;
+    cursor: pointer;
+    background: #fff;
+}
+.modal-descr {
+    padding-bottom: 0px;
+    margin-bottom: 44px;
+}
+.modal-active{
+    opacity: 1;
+    pointer-events: all;
+}
